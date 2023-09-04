@@ -1,0 +1,117 @@
+/* .home {
+  width: 99%;
+  height: 99vh;
+  background-color: white;
+
+
+} */
+
+.head {
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+  color: black;
+  text-align: center;
+
+}
+
+
+#h {
+  margin-top: -70px;
+  margin-left: 50px;
+}
+
+#link {
+  color: RED;
+  margin-left: 1600px;
+  font-weight: bold;
+}
+
+
+.navigation {
+  height:14vh;
+}
+
+.icons label {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.navigation .menu {
+  display: none;
+  background: none;
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 1600px;
+  height: 50px;
+  border-radius: 10px;
+
+}
+
+.menu button {
+  margin-left: 70px;
+}
+
+.icons .menuCancel {
+  display: none;
+}
+
+#show:checked~.icons .menuCancel,
+#show:checked~.menu {
+  display: flex;
+}
+
+#show:checked~.icons .menuBar {
+  display: none;
+}
+
+#show {
+  display: none;
+}
+
+body {
+  width: 100%;
+  height: 80vh;
+  overflow: auto;
+}
+
+
+footer {
+  background-color: white;
+  color: red;
+  width: 99%;
+  height: 5vh;
+  text-align: center;
+}
+
+.bdy {
+  color: red;
+  display: inline-block;
+}
+
+.tree {
+  margin-top: 30px;
+  width: 50%;
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: bold
+}
+
+.treeview {
+  color: red;
+
+
+}
+#cnt p{
+  margin-top:-25px;
+  padding:15px;
+}
+.icon{
+  color: red;
+  margin-left: 15rem;
+  width: 10%;
+  height: 1rem;
+}
